@@ -26,11 +26,13 @@ public class ExArray {
         {
             System.out.println(2*sir[d]);
         }
+
+        System.out.println("hhh");
         for(int v=0;v<sir.length;v++)
         {
-            if(sir.length%2!=0)
+            if(sir[v]%2!=0)
             {
-                System.out.println(sir.length%2);
+                System.out.println(sir[v]);
             }
 
         }
